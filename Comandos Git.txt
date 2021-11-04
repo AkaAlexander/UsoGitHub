@@ -1,1 +1,13 @@
 Esto es un primer repositorio con los comandos de Git
+
+Para subir a un repositorio Local necesitamos 
+
+git init					-Iniciamos el repositorio en el lugar que queremos
+git add . 					-Lo añadimos al repositorio de pruebas
+git commit -m "Descripcion"			-Lo añadimos al repositorio local final
+git log --oneline.				-Mostramos las actualizaciónes del repo
+
+Para subir los archivos a GitHub
+
+git remote add origin URLrepositorio.git 	-Añadimos el repositorio a la terminal
+git push origin master 				-Lo subimos al repo en la nube
