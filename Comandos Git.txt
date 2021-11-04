@@ -11,3 +11,9 @@ Para subir los archivos a GitHub
 
 git remote add origin URLrepositorio.git 	-Añadimos el repositorio a la terminal
 git push origin master 				-Lo subimos al repo en la nube
+
+Para actualizar el repositorio
+
+git add . 					-Lo añadimos al repositorio de pruebas
+git commit -m "Descripcion"			-Lo añadimos al repositorio local final
+git push origin master 				-Lo subimos al repo en la nube
