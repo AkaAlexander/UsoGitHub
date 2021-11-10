@@ -17,3 +17,8 @@ Para actualizar el repositorio
 git add . 					-Lo añadimos al repositorio de pruebas
 git commit -m "Descripcion"			-Lo añadimos al repositorio local final
 git push origin master 				-Lo subimos al repo en la nube
+
+Si da el Error después del commit 
+
+git pull- rebase origin master
+git push origin master
